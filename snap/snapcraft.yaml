@@ -22,9 +22,9 @@
 
 name: mead-r
 version: 0.1.0
-summary: morse-encode-and-decode rewrite in Rust programming language.
+summary: morse-encode-and-decode rewriting in Rust programming language.
 description: |
-  An application of morse-encode-and-decode rewrite in Rust programming language.
+  An application of morse-encode-and-decode rewriting in Rust programming language.
   
   example:
   `mead-r -e "sos"`

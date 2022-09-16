@@ -1,2 +1,5 @@
 # mead-r
-An application of morse-encode-and-decode rewrite in Rust programming language.
+
+[![mead-r](https://snapcraft.io/mead-r/badge.svg)](https://snapcraft.io/mead-r)
+
+An application of morse-encode-and-decode rewriting in Rust programming language.
