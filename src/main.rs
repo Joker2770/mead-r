@@ -36,7 +36,6 @@ fn use_encode(str: &str){
                      e.unsupported_characters)
         }
     }
-    x
 }
 
 fn use_decode(str: &str) {
