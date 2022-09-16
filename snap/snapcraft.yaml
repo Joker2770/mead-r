@@ -1,0 +1,27 @@
+name: mead-r
+version: 0.1.0
+summary: morse-encode-and-decode rewrite in Rust programming language.
+description: |
+  An application of morse-encode-and-decode rewrite in Rust programming language.
+  
+  example:
+  `mead-r -e "sos"`
+  
+  More usages:
+  `mead-r -h`
+
+base: core18
+grade: stable
+confinement: strict
+
+
+parts:
+  mead-r:
+    plugin: rust
+    source: https://github.com/Joker2770/mead-r.git
+    source-type: git
+    source-branch: main
+
+apps:
+  mead-r:
+    command: bin/mead-r
