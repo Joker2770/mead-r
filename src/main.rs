@@ -40,14 +40,10 @@ fn main() {
                 .takes_value(true)
                 .help("String to decode."))
         .get_matches();
-    let enc_str = matches.value_of("encode string");
-    if let Some(s) = enc_str.clone()
-    {
+    if let Some(s) = matches.value_of("encode string") {
         use_encode(s);
     }
-    let dec_str = matches.value_of("decode string");
-    if let Some(s) = dec_str.clone()
-    {
+    if let Some(s) = matches.value_of("decode string") {
         use_decode(s);
     }
 }
